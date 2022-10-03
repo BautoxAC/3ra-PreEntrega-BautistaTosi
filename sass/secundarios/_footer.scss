@@ -1,0 +1,17 @@
+/* estilo del footer */
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #072849;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    gap: 0.6rem;
+}
+.footer__subt {
+    font-size: 20px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,38 @@
+/* estilo de productos */
+.contenedorpro {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.contenedorpro__hijo {
+    margin: 0rem 1rem;
+    padding: 1rem 0rem;
+    width: auto;
+    text-align: center;
+    border: 0.3rem solid black;
+    overflow: auto;
+    transition: 1s;
+    margin-top: 2rem;
+    h2 {
+        padding: 1rem;
+    }
+    p {
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    &:hover {
+        transform: scale(1.08);
+    }
+    img {
+        width: 66.6%;
+    }
+    span {
+        padding: 0.5rem;
+    }
+}
+
+
+
+
+

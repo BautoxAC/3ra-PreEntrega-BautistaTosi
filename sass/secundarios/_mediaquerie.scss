@@ -1,0 +1,83 @@
+/* estilos de la mediaquerie */
+@media screen and (min-width:600px) {
+
+    /* estilos de sed de mediquerie*/
+    .carrusel {
+        display: none;
+    }
+
+    .contenedorsed {
+        display: grid;
+        margin: 3rem;
+        row-gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: center;
+        border: 0.5rem solid black;
+        grid-template-areas:
+            "hijo1 hijo2"
+            "hijo4 hijo3"
+            "hijo5 hijo6";
+        div img {
+         width: 60%;
+        }
+    }
+
+    .contenedorsed__hijo1 {
+        grid-area: hijo1;
+        padding: 2rem;
+        align-self: center;
+    }
+
+    .contenedorsed__hijo2 {
+        grid-area: hijo2;
+        padding: 2rem;
+        h2 {
+            font-size: xx-large;
+            margin: 0.5rem;
+        }
+    }
+
+    .contenedorsed__hijo3 {
+        grid-area: hijo3;
+        padding: 2rem;
+    }
+
+    .contenedorsed__hijo4 {
+        grid-area: hijo4;
+        padding: 2rem;
+        h2 {
+            font-size: xx-large;
+            margin: 0.5rem;
+        }
+    }
+
+    .contenedorsed__hijo5 {
+        grid-area: hijo5;
+        padding: 2rem;
+    }
+
+    .contenedorsed__hijo6 {
+        grid-area: hijo6;
+        padding: 2rem;
+        h2 {
+            font-size: xx-large;
+            margin: 0.5rem;
+        }
+    }
+    /* estilos de Productos de mediaquerie*/
+
+    .contenedorpro {
+        justify-content: center;
+        flex-flow: row nowrap;
+    }
+
+    .contenedorpro__hijo {
+        width: 33.3%;
+    }
+
+    /* estilos del h1 */
+    body main h1 {
+        font-size: 3rem;
+    }
+}
